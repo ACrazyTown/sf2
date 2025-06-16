@@ -108,9 +108,7 @@ class Reader
 
             if (sckID == "smpl")
             {
-                trace("reading smpl");
                 sdta.smpl = i.read(sckSize);
-                trace(sdta.smpl.length);
             }
             else if (sckID == "smpl24")
             {
