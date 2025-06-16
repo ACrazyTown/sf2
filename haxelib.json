@@ -1,0 +1,10 @@
+{
+    "name": "sf2",
+    "url": "https://github.com/ACrazyTown/sf2",
+    "description": "Support for parsing SF2 soundfont files",
+    "contributors": ["ACrazyTown"],
+    "classPath": "format",
+    "license": "MIT",
+    "version": "1.0.0",
+    "releasenote": "Initial release"
+}
