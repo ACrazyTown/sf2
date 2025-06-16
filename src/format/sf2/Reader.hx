@@ -3,12 +3,15 @@ package format.sf2;
 import haxe.io.Input;
 import format.sf2.Data;
 
-// References: 
-// https://github.com/HaxeFoundation/format/blob/master/format/wav/Reader.hx
-// https://www.synthfont.com/sfspec24.pdf
 // TODO:
 // - read DWORDs as UInt32s 
 // - validate data instead of blindly assuming it's correct?
+
+/**
+ * @author ACrazyTown
+ * 
+ * @see https://www.synthfont.com/sfspec24.pdf
+ */
 class Reader
 {
     var i:Input;
